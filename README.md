@@ -18,7 +18,3 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # UpTodo
 >>>>>>> 7472ab5f8556f20590a45ce5ae3abdc6c3314bd0
-
-
-
-https://www.figma.com/file/d7uFkHIVP8JenEM6AUMxiG/UpTodo-Todo-list-app-UI-Kit-Community?type=design&is-community-duplicate=1&fuid=
