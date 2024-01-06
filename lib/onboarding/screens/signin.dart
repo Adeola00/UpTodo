@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/utilities/constants.dart';
-import 'package:todo_app/screens/sign_in/login.dart';
+import 'package:todo_app/authentication/Authscreens/login.dart';
 
 class SignInPage extends StatelessWidget {
   const SignInPage({super.key});
@@ -14,7 +14,7 @@ class SignInPage extends StatelessWidget {
       child: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          automaticallyImplyLeading: true,
+          automaticallyImplyLeading: false,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back_ios),
             onPressed: () {

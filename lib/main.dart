@@ -1,11 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/screens/onboarding/splashscreen.dart';
-import 'package:todo_app/screens/sign_in/signin.dart';
-import 'package:todo_app/screens/sign_in/login.dart';
+import 'package:provider/provider.dart';
+import 'package:todo_app/authentication/AuthUtilities/provider.dart';
+import 'package:todo_app/onboarding/screens/splashscreen.dart';
+import 'package:todo_app/onboarding/screens/signin.dart';
+import 'package:todo_app/authentication/Authscreens/login.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (context) => AuthProvider(),
+        ),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

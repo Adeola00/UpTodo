@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/screens/onboarding/onboarding_model.dart';
+import 'package:flutter_svg/svg.dart';
+import 'package:todo_app/onboarding/onboarding_model.dart';
 import 'package:todo_app/utilities/constants.dart';
-import 'package:todo_app/screens/sign_in/signin.dart';
+import 'package:todo_app/onboarding/screens/signin.dart';
 
 class Onboard extends StatefulWidget {
   const Onboard({super.key});
@@ -72,6 +73,7 @@ class _OnboardState extends State<Onboard> {
                       ),
                       // this is the image in the center
                       Image.asset(screens[index].image),
+                      // SvgPicture.asset("assets/onboardingscreens/onboarding1.svg"),
                       // the page indicators
                       SizedBox(
                         height: 8,

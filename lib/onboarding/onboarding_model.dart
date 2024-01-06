@@ -21,7 +21,7 @@ class OnboardingScreen {
 
 List<OnboardingScreen> screens = <OnboardingScreen>[
   OnboardingScreen(
-      image: 'assets/Onboard1.png',
+      image: 'assets/onboardingscreens/Onboard1.png',
       text: 'Manage your tasks',
       desc: 'You can easily manage all of your daily',
       desc2: 'tasks in DoMe for free',
@@ -30,7 +30,7 @@ List<OnboardingScreen> screens = <OnboardingScreen>[
       btn2: 'NEXT',
       width: 100),
   OnboardingScreen(
-      image: 'assets/Onboard2.png',
+      image: 'assets/onboardingscreens/Onboard2.png',
       text: 'Create daily routine',
       desc: 'In Uptodo you can create your',
       desc2: 'personalized routine to stay productive',
@@ -39,7 +39,7 @@ List<OnboardingScreen> screens = <OnboardingScreen>[
       btn2: 'NEXT',
       width: 100),
   OnboardingScreen(
-    image: 'assets/Onboard3.png',
+    image: 'assets/onboardingscreens/Onboard3.png',
     text: 'Organize your tasks',
     desc: 'You can organize your daily tasks by',
     desc2: 'adding your tasks into separate categories',
