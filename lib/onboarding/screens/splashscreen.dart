@@ -28,7 +28,8 @@ class _SplashState extends State<Splash> {
         splash: Center(
             child: Column(
           children: [
-            Expanded(child: Image.asset("assets/splashicon.png")),
+            Expanded(
+                child: Image.asset("assets/onboardingscreens/splashicon.png")),
             Text(
               "UpTodo",
               style: GoogleFonts.lato(

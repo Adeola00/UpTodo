@@ -20,7 +20,7 @@ class LogInPage extends StatelessWidget {
           backgroundColor: Colors.transparent,
           elevation: 0,
         ),
-        body: Center(
+        body: const Center(
           child: SingleChildScrollView(
             child: Column(),
           ),

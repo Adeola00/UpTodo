@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:todo_app/onboarding/onboarding_model.dart';
 import 'package:todo_app/utilities/constants.dart';
 import 'package:todo_app/onboarding/screens/signin.dart';

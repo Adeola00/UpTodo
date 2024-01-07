@@ -35,9 +35,9 @@ class SignInPage extends StatelessWidget {
                   style: ktitleTextStyle,
                 ),
                 const SizedBox(height: 35),
-                Wrap(
+                const Wrap(
                   alignment: WrapAlignment.center,
-                  children: const [
+                  children: [
                     Text(
                       "Please login to your account or create",
                       style: konboardingPageTextStyle,
